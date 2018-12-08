@@ -6,8 +6,6 @@ def createFolder(directory):
             os.makedirs(directory)
     except OSError:
         print ('Error: Creating directory. ' +  directory)
-        
 
-# Example
-createFolder('./data/')
-# Creates a folder in the current directory called data
+# Creates Folder in Desktop
+createFolder('./desktop/')
